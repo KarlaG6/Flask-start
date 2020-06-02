@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hello from Flask</title>
+</head>
+<style>
+	p, h2 {
+	  color: violet;
+	  text-align: center;
+	} 
+</style>
+<body>
+
+	<h2>CONGRATS</h2>
+	{% if name %}
+		<p>hola {{ name }}</p>
+	{% else %}
+		<p>Hola, extraño</p>
+	{% endif %}
+</body>
+</html>
